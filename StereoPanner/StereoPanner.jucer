@@ -23,8 +23,10 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="StereoPanner"/>
-        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="StereoPanner"/>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="StereoPanner"
+                       osxCompatibility="10.11 SDK"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="StereoPanner"
+                       osxCompatibility="10.11 SDK"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="../../../../../Applications/JUCE/modules"/>
